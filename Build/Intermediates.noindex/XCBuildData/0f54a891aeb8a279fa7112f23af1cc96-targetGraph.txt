@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+macoswebauthn2 in macoswebauthn2
+macoswebauthn2Tests in macoswebauthn2, depends on:
+macoswebauthn2 in macoswebauthn2 (explicit)
+macoswebauthn2UITests in macoswebauthn2, depends on:
+macoswebauthn2 in macoswebauthn2 (explicit)

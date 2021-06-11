@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5772742B267415B7003A955C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772742A267415B7003A955C /* AppDelegate.swift */; };
+		5772742D267415B7003A955C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772742C267415B7003A955C /* ViewController.swift */; };
+		5772742F267415BA003A955C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5772742E267415BA003A955C /* Assets.xcassets */; };
+		57727432267415BA003A955C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57727430267415BA003A955C /* Main.storyboard */; };
+		5772743E267415BA003A955C /* macoswebauthn2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5772743D267415BA003A955C /* macoswebauthn2Tests.swift */; };
+		57727449267415BA003A955C /* macoswebauthn2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57727448267415BA003A955C /* macoswebauthn2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5772743A267415BA003A955C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5772741F267415B7003A955C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57727426267415B7003A955C;
+			remoteInfo = macoswebauthn2;
+		};
+		57727445267415BA003A955C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5772741F267415B7003A955C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57727426267415B7003A955C;
+			remoteInfo = macoswebauthn2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57727427267415B7003A955C /* macoswebauthn2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macoswebauthn2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772742A267415B7003A955C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5772742C267415B7003A955C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5772742E267415BA003A955C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57727431267415BA003A955C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57727433267415BA003A955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57727434267415BA003A955C /* macoswebauthn2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macoswebauthn2.entitlements; sourceTree = "<group>"; };
+		57727439267415BA003A955C /* macoswebauthn2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macoswebauthn2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5772743D267415BA003A955C /* macoswebauthn2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macoswebauthn2Tests.swift; sourceTree = "<group>"; };
+		5772743F267415BA003A955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57727444267415BA003A955C /* macoswebauthn2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macoswebauthn2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57727448267415BA003A955C /* macoswebauthn2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macoswebauthn2UITests.swift; sourceTree = "<group>"; };
+		5772744A267415BA003A955C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57727424267415B7003A955C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727436267415BA003A955C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727441267415BA003A955C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5772741E267415B7003A955C = {
+			isa = PBXGroup;
+			children = (
+				57727429267415B7003A955C /* macoswebauthn2 */,
+				5772743C267415BA003A955C /* macoswebauthn2Tests */,
+				57727447267415BA003A955C /* macoswebauthn2UITests */,
+				57727428267415B7003A955C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57727428267415B7003A955C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57727427267415B7003A955C /* macoswebauthn2.app */,
+				57727439267415BA003A955C /* macoswebauthn2Tests.xctest */,
+				57727444267415BA003A955C /* macoswebauthn2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57727429267415B7003A955C /* macoswebauthn2 */ = {
+			isa = PBXGroup;
+			children = (
+				5772742A267415B7003A955C /* AppDelegate.swift */,
+				5772742C267415B7003A955C /* ViewController.swift */,
+				5772742E267415BA003A955C /* Assets.xcassets */,
+				57727430267415BA003A955C /* Main.storyboard */,
+				57727433267415BA003A955C /* Info.plist */,
+				57727434267415BA003A955C /* macoswebauthn2.entitlements */,
+			);
+			path = macoswebauthn2;
+			sourceTree = "<group>";
+		};
+		5772743C267415BA003A955C /* macoswebauthn2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5772743D267415BA003A955C /* macoswebauthn2Tests.swift */,
+				5772743F267415BA003A955C /* Info.plist */,
+			);
+			path = macoswebauthn2Tests;
+			sourceTree = "<group>";
+		};
+		57727447267415BA003A955C /* macoswebauthn2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				57727448267415BA003A955C /* macoswebauthn2UITests.swift */,
+				5772744A267415BA003A955C /* Info.plist */,
+			);
+			path = macoswebauthn2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57727426267415B7003A955C /* macoswebauthn2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5772744D267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2" */;
+			buildPhases = (
+				57727423267415B7003A955C /* Sources */,
+				57727424267415B7003A955C /* Frameworks */,
+				57727425267415B7003A955C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macoswebauthn2;
+			productName = macoswebauthn2;
+			productReference = 57727427267415B7003A955C /* macoswebauthn2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57727438267415BA003A955C /* macoswebauthn2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57727450267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2Tests" */;
+			buildPhases = (
+				57727435267415BA003A955C /* Sources */,
+				57727436267415BA003A955C /* Frameworks */,
+				57727437267415BA003A955C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5772743B267415BA003A955C /* PBXTargetDependency */,
+			);
+			name = macoswebauthn2Tests;
+			productName = macoswebauthn2Tests;
+			productReference = 57727439267415BA003A955C /* macoswebauthn2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57727443267415BA003A955C /* macoswebauthn2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57727453267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2UITests" */;
+			buildPhases = (
+				57727440267415BA003A955C /* Sources */,
+				57727441267415BA003A955C /* Frameworks */,
+				57727442267415BA003A955C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57727446267415BA003A955C /* PBXTargetDependency */,
+			);
+			name = macoswebauthn2UITests;
+			productName = macoswebauthn2UITests;
+			productReference = 57727444267415BA003A955C /* macoswebauthn2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5772741F267415B7003A955C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					57727426267415B7003A955C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					57727438267415BA003A955C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 57727426267415B7003A955C;
+					};
+					57727443267415BA003A955C = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 57727426267415B7003A955C;
+					};
+				};
+			};
+			buildConfigurationList = 57727422267415B7003A955C /* Build configuration list for PBXProject "macoswebauthn2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5772741E267415B7003A955C;
+			productRefGroup = 57727428267415B7003A955C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57727426267415B7003A955C /* macoswebauthn2 */,
+				57727438267415BA003A955C /* macoswebauthn2Tests */,
+				57727443267415BA003A955C /* macoswebauthn2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57727425267415B7003A955C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772742F267415BA003A955C /* Assets.xcassets in Resources */,
+				57727432267415BA003A955C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727437267415BA003A955C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727442267415BA003A955C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57727423267415B7003A955C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772742D267415B7003A955C /* ViewController.swift in Sources */,
+				5772742B267415B7003A955C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727435267415BA003A955C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5772743E267415BA003A955C /* macoswebauthn2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57727440267415BA003A955C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57727449267415BA003A955C /* macoswebauthn2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5772743B267415BA003A955C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57727426267415B7003A955C /* macoswebauthn2 */;
+			targetProxy = 5772743A267415BA003A955C /* PBXContainerItemProxy */;
+		};
+		57727446267415BA003A955C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57727426267415B7003A955C /* macoswebauthn2 */;
+			targetProxy = 57727445267415BA003A955C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57727430267415BA003A955C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57727431267415BA003A955C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5772744B267415BA003A955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5772744C267415BA003A955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5772744E267415BA003A955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macoswebauthn2/macoswebauthn2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5772744F267415BA003A955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macoswebauthn2/macoswebauthn2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		57727451267415BA003A955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macoswebauthn2.app/Contents/MacOS/macoswebauthn2";
+			};
+			name = Debug;
+		};
+		57727452267415BA003A955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macoswebauthn2.app/Contents/MacOS/macoswebauthn2";
+			};
+			name = Release;
+		};
+		57727454267415BA003A955C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macoswebauthn2;
+			};
+			name = Debug;
+		};
+		57727455267415BA003A955C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macoswebauthn2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.okigan.macoswebauthn2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = macoswebauthn2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57727422267415B7003A955C /* Build configuration list for PBXProject "macoswebauthn2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772744B267415BA003A955C /* Debug */,
+				5772744C267415BA003A955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5772744D267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5772744E267415BA003A955C /* Debug */,
+				5772744F267415BA003A955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57727450267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57727451267415BA003A955C /* Debug */,
+				57727452267415BA003A955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57727453267415BA003A955C /* Build configuration list for PBXNativeTarget "macoswebauthn2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57727454267415BA003A955C /* Debug */,
+				57727455267415BA003A955C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5772741F267415B7003A955C /* Project object */;
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "fdb667adfd9cb21685b3f89de734efcf"
+build_time: [1623452297, 324816000]
+inputs:
+  "/Users/iokulist/Github/okigan/macoswebauthn2/macoswebauthn2/ViewController.swift": [1623452293, 781695855]
+  "/Users/iokulist/Github/okigan/macoswebauthn2/macoswebauthn2/AppDelegate.swift": [1623449143, 323078434]
